@@ -97,7 +97,6 @@ func UpdateRobloxPresence() {
 			State: "by " + place.Creator.Name,
 			Details: place.Name,
 			LargeImage: "roblox_logo",
-			LargeText: "Jugando a Roblox!",
 			Buttons: []*client.Button {
 				&client.Button {
 					Label: "Unirse",
